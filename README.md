@@ -1,8 +1,10 @@
 # parcel-preact-typescript
 
+[![Build Status](https://travis-ci.com/metonym/parcel-preact-typescript.svg?branch=master)](https://travis-ci.com/metonym/parcel-preact-typescript)
+
 > Simple setup using [Parcel](https://parceljs.org/), [Preact X](https://preactjs.com/) and [TypeScript](https://www.typescriptlang.org/)
 
-Building the app for production yields a tiny `4.7 kb` bundle (gzip).
+[Building](#build) the app for production yields a tiny `4.7 kb` bundle (gzip). `jest` is used for testing.
 
 ## Quick Start
 
@@ -14,19 +16,19 @@ cd parcel-preact-typescript
 yarn install
 ```
 
-#### Start
+### Start
 
 ```bash
 yarn start
 ```
 
-#### Build
+### Build
 
 ```bash
 yarn build
 ```
 
-#### Test
+### Test
 
 ```bash
 yarn test
@@ -53,7 +55,7 @@ The default [`tsconfig.json`](tsconfig.json) contains the following:
 }
 ```
 
-Add decorator ([stage 2](https://github.com/tc39/proposal-decorators)) support:
+Add optional decorator ([stage 2](https://github.com/tc39/proposal-decorators)) support:
 
 ```json
 {
