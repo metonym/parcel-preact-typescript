@@ -4,7 +4,7 @@
 
 > Simple setup using [Parcel](https://parceljs.org/), [Preact X](https://preactjs.com/) and [TypeScript](https://www.typescriptlang.org/)
 
-[Building](#build) the app for production yields a tiny 4.5kb bundle (gzipped).
+[Building](#build) the app for production yields a tiny `4.5 kb` bundle (gzipped).
 
 ## Quick Start
 
@@ -49,7 +49,9 @@ The default [`tsconfig.json`](tsconfig.json) contains the following:
 }
 ```
 
-Support for decorators ([stage 2](https://github.com/tc39/proposal-decorators)) can be optionally enabled by adding the following:
+Note that `jsxFactory` must be `"h"` in order for preact to work with parcel.
+
+Support for decorators ([stage 2](https://github.com/tc39/proposal-decorators)) can be enabled by adding the following:
 
 ```json
 {
