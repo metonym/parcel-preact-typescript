@@ -6,6 +6,12 @@
 
 [Building](#build) the app for production yields a tiny `4.5 kb` bundle (gzipped).
 
+**NOTE**
+
+Preact X is still in beta release.
+
+To use Preact 8, simply run `yarn add preact`.
+
 ## Quick Start
 
 Clone the repository and install its dependencies.

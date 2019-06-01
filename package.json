@@ -24,8 +24,6 @@
     "preact",
     "preact x",
     "preact 10",
-    "typescript",
-    "jest",
-    "decorator"
+    "typescript"
   ]
 }
