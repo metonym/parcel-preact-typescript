@@ -4,11 +4,11 @@
 
 > Simple setup using [Parcel](https://parceljs.org/), [Preact X](https://preactjs.com/) and [TypeScript](https://www.typescriptlang.org/)
 
-[Building](#build) the app for production yields a tiny `4.5 kb` bundle (gzipped).
+[Building](#build) the app for production yields a tiny `4.4 kb` bundle (gzipped).
 
 **NOTE**
 
-Preact X is still in beta release.
+Preact X is still in beta release. This project's dependencies and documentation will be actively updated.
 
 To use Preact 8, simply run `yarn add preact`.
 
