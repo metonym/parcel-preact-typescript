@@ -5,7 +5,7 @@
 
 > Simple setup using [Parcel](https://parceljs.org/), [Preact X](https://preactjs.com/) and [TypeScript](https://www.typescriptlang.org/)
 
-[Building](#build) the app for production yields a tiny `4.4 kb` bundle (gzipped).
+This template provides the simplest possible set-up that combines Parcel, Preact X and TypeScript.
 
 ## Note
 
@@ -57,7 +57,7 @@ The jest configuration for this project is in `package.json`:
 
 The default [`tsconfig.json`](tsconfig.json) contains the following:
 
-```json
+```js
 // tsconfig.json
 {
   "compilerOptions": {
@@ -78,7 +78,7 @@ Note that `jsxFactory` must be `"h"` in order for preact to work with parcel.
 
 Support for decorators ([stage 2](https://github.com/tc39/proposal-decorators)) can be enabled by adding the following:
 
-```json
+```js
 {
   "compilerOptions": {
     "experimentalDecorators": true
