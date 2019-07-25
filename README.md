@@ -11,7 +11,7 @@ This template provides the simplest possible set-up that combines Parcel, Preact
 
 Preact X is still in beta release. This project's dependencies and documentation will be actively updated.
 
-## Quick Start
+## Getting Started
 
 Clone the repository and install its dependencies.
 
@@ -21,7 +21,7 @@ cd parcel-preact-typescript/
 yarn install
 ```
 
-### Start
+## Start
 
 Develop the app locally and visit `http://localhost:1234`.
 
@@ -29,7 +29,7 @@ Develop the app locally and visit `http://localhost:1234`.
 yarn start
 ```
 
-### Build
+## Build
 
 Build the app for production.
 
@@ -37,7 +37,7 @@ Build the app for production.
 yarn build
 ```
 
-### Test
+## Test
 
 Run the tests using the [jest](https://jestjs.io/) JavaScript testing framework.
 
@@ -47,13 +47,13 @@ yarn test
 
 The jest configuration for this project is in `package.json`:
 
-```json
+```js
 "jest": {
   "preset": "ts-jest"
 }
 ```
 
-## Customizing `tsconfig.json`
+## Customize `tsconfig.json`
 
 The default [`tsconfig.json`](tsconfig.json) contains the following:
 
