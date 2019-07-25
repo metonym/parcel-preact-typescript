@@ -19,11 +19,7 @@
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   },
-  "keywords": [
-    "parcel",
-    "preact",
-    "preact x",
-    "preact 10",
-    "typescript"
-  ]
+  "jest": {
+    "preset": "ts-jest"
+  }
 }
