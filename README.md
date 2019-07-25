@@ -11,15 +11,19 @@
 
 Preact X is still in beta release. This project's dependencies and documentation will be actively updated.
 
-To use Preact 8, simply run `yarn add preact`.
-
 ## Quick Start
 
 Clone the repository and install its dependencies.
 
+```bash
+git clone git@github.com:metonym/parcel-preact-typescript.git
+cd parcel-preact-typescript/
+yarn install
+```
+
 ### Start
 
-Develop the app locally and visit `http://localhost:2134`.
+Develop the app locally and visit `http://localhost:1234`.
 
 ```bash
 yarn start
