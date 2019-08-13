@@ -7,10 +7,6 @@
 
 This template provides the simplest possible set-up that combines Parcel, Preact X and TypeScript.
 
-## Note
-
-Preact X is still in beta release. This project's dependencies and documentation will be actively updated.
-
 ## Getting Started
 
 Clone the repository and install its dependencies.
