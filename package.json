@@ -6,7 +6,7 @@
   "author": "Eric Liu (https://github.com/metonym)",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "rm -rf dist && parcel build src/index.html",
+    "build": "parcel build src/index.html",
     "test": "jest"
   },
   "dependencies": {
