@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "preact": "^10.0.4"
+    "preact": "^10.0.5"
   },
   "devDependencies": {
     "@types/jest": "^24.0.21",
