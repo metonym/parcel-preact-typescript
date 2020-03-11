@@ -2,7 +2,7 @@
   "name": "parcel-preact-typescript",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "Simple setup using Parcel, Preact X and TypeScript",
+  "description": "Simple set-up using Parcel, Preact X and TypeScript",
   "author": "Eric Liu (https://github.com/metonym)",
   "scripts": {
     "start": "parcel src/index.html",
