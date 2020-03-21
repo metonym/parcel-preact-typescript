@@ -1,11 +1,10 @@
 # parcel-preact-typescript
 
 [![Build Status](https://travis-ci.com/metonym/parcel-preact-typescript.svg?branch=master)](https://travis-ci.com/metonym/parcel-preact-typescript)
-[![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
 
 > Simple set-up using [Parcel](https://parceljs.org/), [Preact X](https://preactjs.com/) and [TypeScript](https://www.typescriptlang.org/).
 
-This template provides the simplest possible set-up that combines Parcel, Preact X and TypeScript.
+This template provides the simplest possible set-up that combines Parcel, Preact X and TypeScript. Jest is used for testing.
 
 ## Getting Started
 
@@ -13,7 +12,7 @@ Clone the repository and install its dependencies.
 
 ```bash
 git clone git@github.com:metonym/parcel-preact-typescript.git
-cd parcel-preact-typescript/
+cd parcel-preact-typescript
 yarn install
 ```
 
