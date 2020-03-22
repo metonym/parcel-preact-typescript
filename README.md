@@ -16,29 +16,19 @@ cd parcel-preact-typescript
 yarn install
 ```
 
-## Start
+## Available Scripts
 
-Develop the app locally and visit `http://localhost:1234`.
+### `yarn start`
 
-```bash
-yarn start
-```
+Runs the app in development mode. Visit [http://localhost:1234](http://localhost:1234).
 
-## Build
+### `yarn build`
 
-Build the app for production.
+Builds the project for production. The build directory is `dist`; types will be written to `dist/index.d.ts`. Customize the build directory in the `outDir` configuration option in the [tsconfig.json](tsconfig.json).
 
-```bash
-yarn build
-```
-
-## Test
+### `yarn test`
 
 Run the tests using the [jest](https://jestjs.io/) JavaScript testing framework.
-
-```bash
-yarn test
-```
 
 The jest configuration for this project is in `package.json`:
 
@@ -48,7 +38,7 @@ The jest configuration for this project is in `package.json`:
 }
 ```
 
-## Customize `tsconfig.json`
+## Customizing `tsconfig.json`
 
 The default [`tsconfig.json`](tsconfig.json) contains the following:
 
@@ -71,7 +61,9 @@ The default [`tsconfig.json`](tsconfig.json) contains the following:
 
 Note that `jsxFactory` must be `"h"` in order for preact to work with parcel.
 
-Support for decorators ([stage 2](https://github.com/tc39/proposal-decorators)) can be enabled by adding the following:
+### Decorators
+
+Enable decorators ([stage 2](https://github.com/tc39/proposal-decorators)) by setting `compilerOptions.experimentalDecorators` to `true`:
 
 ```js
 {
