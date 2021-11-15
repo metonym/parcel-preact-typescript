@@ -1,4 +1,4 @@
-import { h } from 'preact';
+import { h } from "preact";
 
 function App() {
   return <h1>Hello world</h1>;
