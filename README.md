@@ -26,11 +26,10 @@ Builds the project for production. The build directory is `dist`; types will be 
 
 Run the tests using the [jest](https://jestjs.io/) JavaScript testing framework.
 
-The jest configuration is specified in `package.json`:
+The jest configuration is specified in `package.json`.
 
 ```json
 {
-  // ...
   "jest": {
     "preset": "ts-jest"
   }
