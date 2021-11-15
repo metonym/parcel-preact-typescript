@@ -1,20 +1,18 @@
 # parcel-preact-typescript
 
-> Simple set-up using [Parcel](https://parceljs.org/), [Preact X](https://preactjs.com/) and [TypeScript](https://www.typescriptlang.org/).
+> Minimal template using [Parcel](https://parceljs.org/), [Preact](https://preactjs.com/), and [TypeScript](https://www.typescriptlang.org/).
 
-This template provides the simplest possible set-up that combines Parcel, Preact X and TypeScript. Jest is used for testing.
+This template provides the simplest possible set-up that combines Parcel, Preact, TypeScript, and Jest.
 
-## Getting started
+## Getting Started
 
-Clone the repository and install its dependencies.
+Install the project dependencies.
 
 ```bash
-git clone git@github.com:metonym/parcel-preact-typescript.git
-cd parcel-preact-typescript
 yarn install
 ```
 
-## Available scripts
+## Available Scripts
 
 ### `yarn start`
 
@@ -28,11 +26,14 @@ Builds the project for production. The build directory is `dist`; types will be 
 
 Run the tests using the [jest](https://jestjs.io/) JavaScript testing framework.
 
-The jest configuration for this project is in `package.json`:
+The jest configuration is specified in `package.json`:
 
-```js
-"jest": {
-  "preset": "ts-jest"
+```json
+{
+  // ...
+  "jest": {
+    "preset": "ts-jest"
+  }
 }
 ```
 
