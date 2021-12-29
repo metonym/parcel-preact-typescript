@@ -24,14 +24,15 @@ Builds the project for production. The build directory is `dist`; types will be 
 
 ### `yarn test`
 
-Run the tests using the [jest](https://jestjs.io/) JavaScript testing framework.
+Runs tests using [Jest](https://jestjs.io/).
 
-The jest configuration is specified in `package.json`.
+Configure Jest options in `package.json`.
 
 ```json
 {
   "jest": {
-    "preset": "ts-jest"
+    "preset": "ts-jest",
+    "testEnvironment": "jsdom"
   }
 }
 ```
@@ -63,7 +64,7 @@ Note that `jsxFactory` must be `"h"` in order for preact to work with parcel.
 
 Enable decorators ([stage 2](https://github.com/tc39/proposal-decorators)) by setting `compilerOptions.experimentalDecorators` to `true`:
 
-```js
+```json
 {
   "compilerOptions": {
     "experimentalDecorators": true
