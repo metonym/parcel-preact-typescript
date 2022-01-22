@@ -1,5 +1,5 @@
 {
-  "name": "parcel-preact-typescript",
+  "private": true,
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
